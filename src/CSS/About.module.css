@@ -1,0 +1,114 @@
+@import "./vars.css";
+
+.container {
+  background-color: rgba(202, 163, 182, 0.5);
+  border-radius: 20px;
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.icon {
+  font-size: 4em;
+}
+
+/* left */
+.locationContainer {
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.locationIcon {
+  position: relative;
+  font-size: 3em;
+  padding-bottom: 8px;
+  color: var(--color-secondary);
+  filter: drop-shadow(2px 2px 2px var(--color-dark));
+}
+
+/* middle */
+.iconContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  height: 55%;
+}
+
+.linkedInIcon {
+  position: relative;
+  filter: drop-shadow(2px 2px 2px var(--color-dark));
+}
+
+.gitHubIcon {
+  position: relative;
+  filter: drop-shadow(2px 2px 2px var(--color-dark));
+}
+
+.iconContainer a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.iconContainer a :hover {
+  text-decoration: none;
+  color: var(--color-third);
+  animation-name: floating;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, -8px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+/* right */
+.aboutContainer {
+  position: relative;
+  width: 45%;
+}
+
+.title {
+  background-color: var(--color-primary);
+  padding: 0 10px;
+  border-radius: 20px;
+  text-align: right;
+  font-family: var(--font-headings);
+  font-weight: 100;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  display: inline-block;
+  text-shadow: 2px 2px var(--color-dark);
+}
+
+@media (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    height: 600px;
+  }
+  .aboutContainer {
+    width: 50%;
+  }
+  .iconContainer {
+    width: 40%;
+  }
+}
