@@ -12,6 +12,8 @@
 }
 
 .title {
+  font-family: var(--font-h2);
+  font-weight: 200;
   font-size: 1.6em;
   text-decoration: none;
   color: var(--color-text);

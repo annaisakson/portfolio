@@ -24,6 +24,7 @@ export const Profile = () => {
         className={styles.profileImg}
       />
       <div className={styles.topBlur}></div>
+      <div className={styles.middleBlur}></div>
       <div className={styles.bottomBlur}></div>
     </section>
   );

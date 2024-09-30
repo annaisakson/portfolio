@@ -1,0 +1,26 @@
+[
+  {
+    "role": "Lorem Ipsum",
+    "organisation": "dolor sit ame",
+    "startDate": "onsectetur adipiscing elit",
+    "endDate": "sed do eiusmod tempor incididunt",
+    "experiences": ["ut labore et dolore", "magna aliqua"],
+    "imageSrc": "history/blomma1.png"
+  },
+  {
+    "role": "Lorem Ipsum",
+    "organisation": "dolor sit ame",
+    "startDate": "onsectetur adipiscing elit",
+    "endDate": "sed do eiusmod tempor incididunt",
+    "experiences": ["ut labore et dolore", "magna aliqua"],
+    "imageSrc": "history/blomma2.png"
+  },
+  {
+    "role": "Lorem Ipsum",
+    "organisation": "dolor sit ame",
+    "startDate": "onsectetur adipiscing elit",
+    "endDate": "sed do eiusmod tempor incididunt",
+    "experiences": ["ut labore et dolore", "magna aliqua"],
+    "imageSrc": "history/blomma3.png"
+  }
+]

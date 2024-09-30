@@ -1,29 +1,15 @@
 import React from "react";
 import styles from "../CSS/About.module.css";
 import { FaLocationDot } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa6";
-import { FaLinkedinIn } from "react-icons/fa";
 
 export const About = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="about">
       <div className={styles.locationContainer}>
         <FaLocationDot className={`${styles.icon} && ${styles.locationIcon}`} />
         <p className={styles.locationText}>Umeå, Sweden</p>
       </div>
-      <div className={styles.iconContainer}>
-        <a
-          href="https://www.linkedin.com/in/anna-sara-isakson-2b23912b7/"
-          target="_blank"
-        >
-          <FaLinkedinIn
-            className={`${styles.icon} && ${styles.linkedInIcon}`}
-          />
-        </a>
-        <a href="https://github.com/annaisakson" target="_blank">
-          <FaGithub className={`${styles.icon} && ${styles.gitHubIcon}`} />
-        </a>
-      </div>
+
       <div className={styles.aboutContainer}>
         <h2 className={styles.title}>A little bit about me</h2>
         <p className={styles.description}>

@@ -1,0 +1,70 @@
+@import "./vars.css";
+
+.container {
+  background-color: rgba(202, 163, 182, 0.5);
+  background: linear-gradient(180deg, #caa3b6 0%, rgba(25, 55, 109, 0) 100%);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 140px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 10px;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.link p {
+  position: relative;
+  padding: 5px;
+  top: 6px;
+}
+
+.icon {
+  position: relative;
+  filter: drop-shadow(2px 2px 2px var(--color-dark));
+  text-decoration: none;
+  font-size: 2.5em;
+  color: var(--color-text);
+}
+
+.link a:hover {
+  text-decoration: none;
+  animation-name: floating;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, -5px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+@media (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    padding: 1em;
+    gap: 2em;
+    height: 100%;
+  }
+}

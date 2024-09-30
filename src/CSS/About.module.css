@@ -2,6 +2,7 @@
 
 .container {
   background-color: rgba(202, 163, 182, 0.5);
+  background: linear-gradient(360deg, #caa3b6 0%, rgba(25, 55, 109, 0) 100%);
   border-radius: 20px;
   height: 300px;
   position: relative;
@@ -9,6 +10,7 @@
   align-items: center;
   justify-content: space-around;
   z-index: 1;
+  margin-top: 50px;
   margin-right: 10%;
   margin-left: 10%;
 }
@@ -28,57 +30,10 @@
 
 .locationIcon {
   position: relative;
-  font-size: 3em;
+  font-size: 4em;
   padding-bottom: 8px;
   color: var(--color-secondary);
   filter: drop-shadow(2px 2px 2px var(--color-dark));
-}
-
-/* middle */
-.iconContainer {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  width: 20%;
-  height: 55%;
-}
-
-.linkedInIcon {
-  position: relative;
-  filter: drop-shadow(2px 2px 2px var(--color-dark));
-}
-
-.gitHubIcon {
-  position: relative;
-  filter: drop-shadow(2px 2px 2px var(--color-dark));
-}
-
-.iconContainer a {
-  text-decoration: none;
-  color: var(--color-text);
-}
-
-.iconContainer a :hover {
-  text-decoration: none;
-  color: var(--color-third);
-  animation-name: floating;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes floating {
-  0% {
-    transform: translate(0, 0px);
-  }
-  50% {
-    transform: translate(0, -8px);
-  }
-  100% {
-    transform: translate(0, -0px);
-  }
 }
 
 /* right */
@@ -88,7 +43,7 @@
 }
 
 .title {
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary); */
   padding: 0 10px;
   border-radius: 20px;
   text-align: right;
@@ -102,13 +57,14 @@
 
 @media (max-width: 830px) {
   .container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     height: 600px;
+    padding: 1em;
+  }
+  .locationContainer {
+    width: 50%;
   }
   .aboutContainer {
     width: 50%;
-  }
-  .iconContainer {
-    width: 40%;
   }
 }

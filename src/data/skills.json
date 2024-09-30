@@ -1,0 +1,34 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react-light.png"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/nodejs-light.png"
+  },
+  {
+    "title": "GraphQL",
+    "imageSrc": "skills/graphql-light.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma-light.png"
+  },
+  {
+    "title": "Photoshop",
+    "imageSrc": "skills/photoshop.png"
+  },
+  {
+    "title": "Illustrator",
+    "imageSrc": "skills/illustrator.png"
+  }
+]
