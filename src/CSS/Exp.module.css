@@ -50,10 +50,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .skillImgContainer img {
   filter: drop-shadow(2px 2px 2px var(--color-dark));
+}
+
+.skillImgContainer img:hover {
+  transition: 0.5s ease;
+  opacity: 0.6;
 }
 
 .skill p {
@@ -98,6 +104,12 @@
   margin-top: 5px;
   list-style-position: inside;
   list-style-type: disc;
+}
+
+.historyItem:hover {
+  opacity: 0.6;
+  transition: 0.5s ease;
+  cursor: default;
 }
 
 @media (max-width: 830px) {
