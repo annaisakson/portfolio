@@ -2,7 +2,7 @@
   {
     "title": "Dashboard",
     "imageSrc": "projects/dashboard.png",
-    "description": "This is a dashboard you can make your own by changing background, adding links, notes etc.",
+    "description": "This is a dashboard you can freely customize by changing background, adding links,  writing down notes etc.",
     "skills": ["JavaScript", "API"],
     "demo": "https://annaisakson.github.io/dashboard/",
     "source": "https://github.com/annaisakson/dashboard"
@@ -10,7 +10,7 @@
   {
     "title": "Quire",
     "imageSrc": "projects/quire.png",
-    "description": "This is a group project where we built a notes application with qualities such as text formatting, adding images and more.",
+    "description": "Group project. A notes application with qualities such as text formatting, image uploading and more.",
     "skills": ["React"],
     "demo": "https://regni.github.io/quire/",
     "source": "https://github.com/Regni/quire"
@@ -18,7 +18,7 @@
   {
     "title": "Kanban Board",
     "imageSrc": "projects/kanban.png",
-    "description": "This is a group project where we built a kanban board with drag and drop functionality that is also customizable.",
+    "description": "Group project. We built a kanban board with drag and drop functionality that is also customizable.",
     "skills": ["React"],
     "demo": "https://kanban-kollab.netlify.app/",
     "source": "https://github.com/EllenSandqvist/kanban_collab"
