@@ -3,9 +3,17 @@
     "title": "Dashboard",
     "imageSrc": "projects/dashboard.png",
     "description": "This is a dashboard you can freely customize by changing background, adding links,  writing down notes etc.",
-    "skills": ["JavaScript", "API"],
+    "skills": ["JavaScript", "OpenWeather API"],
     "demo": "https://annaisakson.github.io/dashboard/",
     "source": "https://github.com/annaisakson/dashboard"
+  },
+  {
+    "title": "AI Image Generator",
+    "imageSrc": "projects/aiImgGenerator.png",
+    "description": "A simple image generator that uses the OpenAI API to create four different images based on your prompt.",
+    "skills": ["React", "OpenAI API"],
+    "demo": "https://neon-kelpie-491d10.netlify.app/",
+    "source": "https://github.com/annaisakson/AI-img-generator"
   },
   {
     "title": "Quire",
