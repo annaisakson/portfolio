@@ -1,23 +1,29 @@
 [
   {
-    "role": "Lorem Ipsum",
-    "organisation": "dolor sit ame",
-    "startDate": "onsectetur adipiscing elit",
-    "endDate": "sed do eiusmod tempor incididunt",
-    "experiences": ["ut labore et dolore", "magna aliqua"],
-    "imageSrc": "history/blomma1.png"
+    "title": "Fullstack JavaScript Developer",
+    "organisation": "Chas Academy",
+    "startDate": "2023",
+    "endDate": "2025",
+    "role": "I studied to become a fullstack JavaScript developer at Chas Academy.",
+    "experiences": ["Click to see my diploma."],
+    "imageSrc": "history/blomma1.png",
+    "link": "https://verify.trueoriginal.com/A30DBCFA-B9F9-A4C1-6F28-8F4629AC5447/?ref=direct-copy"
   },
   {
-    "role": "Lorem Ipsum",
-    "organisation": "dolor sit ame",
-    "startDate": "onsectetur adipiscing elit",
-    "endDate": "sed do eiusmod tempor incididunt",
-    "experiences": ["ut labore et dolore", "magna aliqua"],
+    "title": "Internship",
+    "organisation": "Sogram Invest",
+    "startDate": "dec 2024",
+    "endDate": "jun 2025",
+    "role": "During my 6 month internship i built a webshop for a company with a group of other students. I worked in both frontend and backend doing tasks such as:",
+    "experiences": [
+      "Frontend: Product page, product cards, favourite page, profile page",
+      "Backend: Login, register, profile functionality, reCaptcha"
+    ],
     "imageSrc": "history/blomma2.png"
   },
   {
-    "role": "Lorem Ipsum",
-    "organisation": "dolor sit ame",
+    "title": "More coming soon",
+    "organisation": "lorem ipsum",
     "startDate": "onsectetur adipiscing elit",
     "endDate": "sed do eiusmod tempor incididunt",
     "experiences": ["ut labore et dolore", "magna aliqua"],

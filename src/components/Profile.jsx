@@ -8,11 +8,11 @@ export const Profile = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Anna-Sara</h1>
         <p className={styles.description}>
-          I'm a fullstack JavaScript student with an interest in graphical art
+          I'm a fullstack JavaScript developer with an interest in graphical art
           and design. Reach out if you'd like to learn more!
         </p>
         <a
-          href="mailto:anna-sara.isaksson@chasacademy.se"
+          href="mailto:annasaraisakson@hotmail.com"
           className={styles.contactBtn}
         >
           Contact me

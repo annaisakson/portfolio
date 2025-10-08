@@ -13,10 +13,10 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <a href="mailto:anna-sara.isaksson@chasacademy.se" target="_blank">
+          <a href="mailto:annasaraisakson@hotmail.com" target="_blank">
             <IoMail className={`${styles.icon} && ${styles.mailIcon}`} />
           </a>
-          <p>anna-sara.isaksson@chasacademy.se</p>
+          <p>annasaraisakson@hotmail.com</p>
         </li>
         <li className={styles.link}>
           <a

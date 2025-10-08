@@ -7,7 +7,7 @@ import { getImageUrl } from "../utils";
 export const Exp = () => {
   return (
     <section className={styles.container} id="experience">
-      <h2 className={styles.title}>I have some experience in</h2>
+      <h2 className={styles.title}>I have experience in</h2>
       <div className={styles.content}>
         <div className={styles.skills}>
           {skills.map((skill, id) => {
@@ -30,15 +30,20 @@ export const Exp = () => {
                   alt={`${historyItem.organisation} Logo`}
                 />
 
-                <div className={styles.historyItemDetails}>
-                  <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
-                  <p>{`${historyItem.startDate}, ${historyItem.endDate}`}</p>
+                <a
+                  href={historyItem.link}
+                  target="_blank"
+                  className={styles.historyItemDetails}
+                >
+                  <h3>{`${historyItem.title}, ${historyItem.organisation}`}</h3>
+                  <h2>{`${historyItem.startDate} - ${historyItem.endDate}`}</h2>
+                  <p>{historyItem.role}</p>
                   <ul>
                     {historyItem.experiences.map((experience, id) => {
                       return <li key={id}>{experience}</li>;
                     })}
                   </ul>
-                </div>
+                </a>
               </li>
             );
           })}

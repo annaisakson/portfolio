@@ -1,5 +1,12 @@
 [
   {
+    "title": "SunSip",
+    "imageSrc": "projects/sunsip.png",
+    "description": "During my internship i worked on a webshop that sells beverages. I did both frontend and backend work.",
+    "skills": ["Next.js", "Tailwind", "Wix Headless"],
+    "site": "https://sunsip.es"
+  },
+  {
     "title": "Dashboard",
     "imageSrc": "projects/dashboard.png",
     "description": "This is a dashboard you can freely customize by changing background, adding links,  writing down notes etc.",

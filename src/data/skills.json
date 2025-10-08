@@ -1,5 +1,9 @@
 [
   {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript_icon.png"
+  },
+  {
     "title": "HTML",
     "imageSrc": "skills/html.png"
   },
@@ -20,8 +24,16 @@
     "imageSrc": "skills/nodejs-light.png"
   },
   {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql-light.png"
+    "title": "Next.js",
+    "imageSrc": "skills/nextjs_icon.png"
+  },
+  {
+    "title": "Vue.js",
+    "imageSrc": "skills/vue_icon.png"
+  },
+  {
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/tailwind_icon.png"
   },
   {
     "title": "Figma",

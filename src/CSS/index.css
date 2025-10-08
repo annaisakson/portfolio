@@ -8,3 +8,32 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* slick dots customization */
+.mySlider {
+  padding-bottom: 40px;
+}
+
+.slick-dots li button:before {
+  color: #ffffffa0; /* default color of the dots */
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff; /* active dot color */
+  opacity: 1;
+}
+
+/* make the dots bigger */
+.slick-dots li button:before {
+  font-size: 7px;
+}
+
+.slick-prev {
+  left: -40px;
+}
+
+.slick-next {
+  right: -40px;
+}
