@@ -15,7 +15,7 @@ export const Projects = () => {
     slidesToScroll: 1, // how many slides move on arrow/dot click
     arrows: true, // show left/right arrows
     autoplay: true, // auto-slide
-    autoplaySpeed: 6000, // 6 seconds delay
+    autoplaySpeed: 8000, // 6 seconds delay
     pauseOnHover: true, // stop autoplay when hovering
     adaptiveHeight: true, // adjusts height depending on content
     responsive: [

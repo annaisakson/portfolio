@@ -3,8 +3,16 @@
     "title": "SunSip",
     "imageSrc": "projects/sunsip.png",
     "description": "During my internship i worked on a webshop that sells beverages. I did both frontend and backend work.",
-    "skills": ["Next.js", "Tailwind", "Wix Headless"],
+    "skills": ["Next.js", "Tailwind", "TypeScript", "Wix Headless"],
     "site": "https://sunsip.es"
+  },
+  {
+    "title": "Rently",
+    "imageSrc": "projects/rently.png",
+    "description": "Group project. A platform to rent everyday items. Browse through the items, register and book them for a specific date.",
+    "skills": ["Vue.js", "JSONbin"],
+    "demo": "https://rently-app.netlify.app/",
+    "source": "https://github.com/Regni/rently"
   },
   {
     "title": "Dashboard",
