@@ -18,14 +18,14 @@
 }
 
 .slide {
-  height: auto;
+  height: 510px;
   width: 100%;
   display: flex;
   justify-content: center;
   min-width: 0;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 800px) {
   .slide {
     max-height: 450px;
   }
