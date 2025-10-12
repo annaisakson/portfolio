@@ -12,6 +12,13 @@ html {
 /* slick dots customization */
 .mySlider {
   padding-bottom: 40px;
+  width: 100%;
+  min-width: 0;
+}
+
+.slide {
+  width: 100%;
+  min-width: 0;
 }
 
 .slick-dots li button:before {

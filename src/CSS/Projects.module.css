@@ -5,6 +5,7 @@
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
+  min-width: 0;
 }
 
 .title {
@@ -21,6 +22,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  min-width: 0;
 }
 
 @media (max-width: 450px) {

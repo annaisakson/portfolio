@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect, useState } from "react";
 import projects from "../data/projects.json";
 import styles from "../CSS/Projects.module.css";
 import { ProjectCard } from "./ProjectCard";
@@ -7,11 +7,24 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 export const Projects = () => {
+  const [initialSlidesToShow, setInitialSlidesToShow] = useState(4);
+
+  useEffect(() => {
+    const width = window.innerWidth;
+    if (width < 420) setInitialSlidesToShow(1);
+    else if (width < 550) setInitialSlidesToShow(1.1);
+    else if (width < 700) setInitialSlidesToShow(1.5);
+    else if (width < 1000) setInitialSlidesToShow(2);
+    else if (width < 1300) setInitialSlidesToShow(2.4);
+    else if (width < 1600) setInitialSlidesToShow(3);
+    else setInitialSlidesToShow(4);
+  }, []);
+
   const settings = {
     dots: true, // show navigation dots
     infinite: true, // loop around
     speed: 500, // animation speed (ms)
-    slidesToShow: 4, // how many slides visible at once
+    slidesToShow: initialSlidesToShow, // how many slides visible at once
     slidesToScroll: 1, // how many slides move on arrow/dot click
     arrows: true, // show left/right arrows
     autoplay: true, // auto-slide
