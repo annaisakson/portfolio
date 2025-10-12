@@ -67,4 +67,14 @@
   .aboutContainer {
     width: 50%;
   }
+  .aboutContainer {
+    width: 85%;
+  }
+}
+
+@media (max-width: 450px) {
+  .aboutContainer {
+    position: relative;
+    width: 85%;
+  }
 }

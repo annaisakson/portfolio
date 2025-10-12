@@ -29,8 +29,6 @@
   font-family: var(--font-h2);
   font-weight: 200;
   margin-bottom: 5px;
-  /* position: relative;
-  top: 34px; */
 }
 
 .description {
@@ -75,4 +73,45 @@
 
 .link:hover {
   background-color: #fff;
+}
+
+@media (max-width: 800px) {
+  .container {
+    height: 420px;
+    max-width: 270px;
+  }
+
+  .img {
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+
+  .title {
+    font-size: 1.2em;
+  }
+
+  .description {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: lighter;
+  }
+
+  .skill {
+    font-size: 12px;
+    padding: 4px 6px;
+  }
+  .link {
+    font-size: 12px;
+    padding: 4px 6px;
+  }
+  .links {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 100%;
+  }
 }

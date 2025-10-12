@@ -7,6 +7,14 @@
     "site": "https://sunsip.es"
   },
   {
+    "title": "Wordscapes",
+    "imageSrc": "projects/art.png",
+    "description": "A simple art generator that creates abstract art based on your prompt without the use of AI. You can randomize prompts and even save your art to your computer.",
+    "skills": ["React", "p5"],
+    "demo": "https://annaisakson.github.io/art-generator/",
+    "source": "https://github.com/annaisakson/art-generator"
+  },
+  {
     "title": "Rently",
     "imageSrc": "projects/rently.png",
     "description": "Group project. A platform to rent everyday items. Browse through the items, register and book them for a specific date.",
@@ -14,6 +22,7 @@
     "demo": "https://rently-app.netlify.app/",
     "source": "https://github.com/Regni/rently"
   },
+
   {
     "title": "Dashboard",
     "imageSrc": "projects/dashboard.png",
@@ -21,14 +30,6 @@
     "skills": ["JavaScript", "OpenWeather API"],
     "demo": "https://annaisakson.github.io/dashboard/",
     "source": "https://github.com/annaisakson/dashboard"
-  },
-  {
-    "title": "AI Image Generator",
-    "imageSrc": "projects/aiImgGenerator.png",
-    "description": "A simple image generator that uses the OpenAI API to create four different images based on your prompt.",
-    "skills": ["React", "OpenAI API"],
-    "demo": "https://neon-kelpie-491d10.netlify.app/",
-    "source": "https://github.com/annaisakson/AI-img-generator"
   },
   {
     "title": "Quire",

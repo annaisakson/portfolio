@@ -7,3 +7,12 @@
   color: white;
   overflow: hidden;
 }
+
+@media (max-width: 400px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

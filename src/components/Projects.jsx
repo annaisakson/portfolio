@@ -20,15 +20,33 @@ export const Projects = () => {
     adaptiveHeight: true, // adjusts height depending on content
     responsive: [
       {
-        breakpoint: 1024, // at 1024px or below
+        breakpoint: 1600,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1300,
+        settings: {
+          slidesToShow: 2.4,
+        },
+      },
+      {
+        breakpoint: 1000,
         settings: {
           slidesToShow: 2,
         },
       },
       {
-        breakpoint: 768, // at 768px or below
+        breakpoint: 700,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1.5,
+        },
+      },
+      {
+        breakpoint: 550,
+        settings: {
+          slidesToShow: 1.1,
         },
       },
     ],
