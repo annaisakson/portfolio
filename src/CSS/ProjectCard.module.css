@@ -92,14 +92,18 @@
   }
 
   .description {
-    margin-top: 5px;
+    margin-top: 1px;
     font-size: 12px;
-    font-weight: lighter;
+    font-weight: normal;
   }
 
   .skill {
     font-size: 12px;
     padding: 4px 6px;
+  }
+
+  .skills {
+    margin-top: 5px;
   }
   .link {
     font-size: 12px;
