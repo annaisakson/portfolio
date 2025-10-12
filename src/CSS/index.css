@@ -44,4 +44,15 @@ html {
 }
 
 @media (max-width: 600px) {
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 28px;
+  }
+  .slick-prev {
+    left: -30px;
+  }
+
+  .slick-next {
+    right: -30px;
+  }
 }

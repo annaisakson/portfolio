@@ -49,6 +49,12 @@ export const Projects = () => {
           slidesToShow: 1.1,
         },
       },
+      {
+        breakpoint: 400,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
     ],
   };
 
