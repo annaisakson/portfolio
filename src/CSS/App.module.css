@@ -6,6 +6,7 @@
   height: 100%;
   color: white;
   overflow: hidden;
+  gap: 100px;
 }
 
 @media (max-width: 400px) {

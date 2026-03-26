@@ -1,20 +1,5 @@
 @import "./vars.css";
 
-.container {
-  background-color: rgba(202, 163, 182, 0.5);
-  background: linear-gradient(360deg, #caa3b6 0%, rgba(25, 55, 109, 0) 100%);
-  border-radius: 20px;
-  height: 300px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  z-index: 1;
-  margin-top: 50px;
-  margin-right: 10%;
-  margin-left: 10%;
-}
-
 .icon {
   font-size: 4em;
 }
@@ -23,6 +8,7 @@
 .locationContainer {
   position: relative;
   align-items: center;
+  text-align: center;
   display: flex;
   flex-direction: column;
   width: 20%;
@@ -36,17 +22,25 @@
   filter: drop-shadow(2px 2px 2px var(--color-dark));
 }
 
+.container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 /* right */
 .aboutContainer {
   position: relative;
-  width: 45%;
+  width: 80%;
+  text-align: center;
 }
 
 .title {
   /* background-color: var(--color-primary); */
-  padding: 0 10px;
   border-radius: 20px;
-  text-align: right;
+  text-align: center;
   font-family: var(--font-headings);
   font-weight: 100;
   font-size: 2em;
@@ -55,11 +49,12 @@
   text-shadow: 2px 2px var(--color-dark);
 }
 
-@media (max-width: 830px) {
+@media (max-width: 850px) {
   .container {
-    flex-direction: column-reverse;
-    height: 600px;
+    flex-direction: column;
+    height: 400px;
     padding: 1em;
+    width: 100%;
   }
   .locationContainer {
     width: 50%;

@@ -3,25 +3,60 @@ import styles from "../CSS/Exp.module.css";
 import skills from "../data/skills.json";
 import history from "../data/history.json";
 import { getImageUrl } from "../utils";
+import { FaLocationDot } from "react-icons/fa6";
+import stylesAbout from "../CSS/About.module.css";
 
 export const Exp = () => {
   return (
-    <section className={styles.container} id="experience">
-      <h2 className={styles.title}>I have experience in</h2>
-      <div className={styles.content}>
-        <div className={styles.skills}>
-          {skills.map((skill, id) => {
-            return (
-              <div className={styles.skill} key={id}>
-                <div className={styles.skillImgContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
-                </div>
-                <p>{skill.title}</p>
-              </div>
-            );
-          })}
+    <div className={styles.expAndAbout}>
+      <section className={styles.container} id="experience">
+        <div className={styles.expContainer}>
+          <h2 className={styles.title}>I have experience in</h2>
+          <div className={styles.content}>
+            <div className={styles.skills}>
+              {skills.map((skill, id) => {
+                return (
+                  <div className={styles.skill} key={id}>
+                    <div className={styles.skillImgContainer}>
+                      <img
+                        src={getImageUrl(skill.imageSrc)}
+                        alt={skill.title}
+                      />
+                    </div>
+                    <p>{skill.title}</p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
-        <ul className={styles.history}>
+      </section>
+      <section className={stylesAbout.container} id="about">
+        <div className={stylesAbout.aboutContainer}>
+          {/* <h2 className={stylesAbout.title}>A little bit about me</h2> */}
+          <p className={stylesAbout.description}>
+            I'm 29 years old and live in Umeå with my partner and dog. When i'm
+            not coding I like to travel, workout and play games. <br></br>
+            <br></br>I recently graduated from Chas Academy as a fullstack
+            JavaScript developer, although my passion lies in the front end part
+            of the stack! I have a background of studying graphic design and
+            really love to be able to see my work come to life, be it in the
+            form of a website or through artwork.
+          </p>
+        </div>
+        <div className={stylesAbout.locationContainer}>
+          <FaLocationDot
+            className={`${stylesAbout.icon} && ${stylesAbout.locationIcon}`}
+          />
+          <p className={stylesAbout.locationText}>Umeå, Sweden</p>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+{
+  /* <ul className={styles.history}>
           {history.map((historyItem, id) => {
             return (
               <li key={id} className={styles.historyItem}>
@@ -47,8 +82,5 @@ export const Exp = () => {
               </li>
             );
           })}
-        </ul>
-      </div>
-    </section>
-  );
-};
+        </ul> */
+}

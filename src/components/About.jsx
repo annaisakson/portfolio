@@ -13,7 +13,7 @@ export const About = () => {
       <div className={styles.aboutContainer}>
         <h2 className={styles.title}>A little bit about me</h2>
         <p className={styles.description}>
-          I'm 28 years old and live in Umeå with my partner and dog. When i'm
+          I'm 29 years old and live in Umeå with my partner and dog. When i'm
           not coding I like to travel, workout and play games. <br></br>
           <br></br>I recently graduated from Chas Academy as a fullstack
           JavaScript developer, although my passion lies in the front end part

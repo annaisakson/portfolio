@@ -9,7 +9,8 @@ export const Profile = () => {
         <h1 className={styles.title}>Hi, I'm Anna-Sara</h1>
         <p className={styles.description}>
           I'm a fullstack JavaScript developer with an interest in graphical art
-          and design. Reach out if you'd like to learn more!
+          and design. I'm currently looking for remote work opportunities. Reach
+          out if you'd like to learn more!
         </p>
         <a
           href="mailto:annasaraisakson@hotmail.com"

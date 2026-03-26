@@ -5,6 +5,7 @@ import { About } from "./components/About";
 import { Exp } from "./components/Exp";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
+import { BigProjects } from "./components/BigProjects";
 
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
       <div className={styles.App}>
         <Navbar />
         <Profile />
-        <About />
         <Exp />
+        <BigProjects />
         <Projects />
         <Contact />
       </div>

@@ -1,10 +1,30 @@
 @import "./vars.css";
 
+.expAndAbout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(202, 163, 182, 0.5);
+  background: linear-gradient(360deg, #caa3b6 0%, rgba(25, 55, 109, 0) 100%);
+  border-radius: 20px;
+  height: 500px;
+  position: relative;
+  z-index: 1;
+  margin-top: 100px;
+  margin-right: 10%;
+  margin-left: 9%;
+  width: 82%;
+  padding: 0px 2%;
+}
+
 .container {
   color: var(--color-text);
-  margin-top: 150px;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 50%;
+}
+
+.expContainer {
+  width: 80%;
+  text-align: center;
 }
 
 .title {
@@ -14,7 +34,7 @@
   font-weight: 100;
   display: inline-block;
   text-shadow: 2px 2px var(--color-dark);
-  margin-bottom: 10px;
+  margin-bottom: 24px;
 }
 
 .content {
@@ -27,11 +47,10 @@
 
 .skills {
   /* background-color: rgba(202, 163, 182, 0.5); */
+  text-align: left;
   border-radius: 20px;
-  width: 45%;
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   gap: 30px;
   padding: 0px 10px;
@@ -134,11 +153,43 @@
   cursor: default;
 }
 
-@media (max-width: 830px) {
-  .content {
+@media (max-width: 1600px) {
+  .expAndAbout {
+    margin-top: 100px;
+    margin-left: 2%;
+    width: 96%;
+    padding: 0px 2%;
+    height: auto;
+    padding-bottom: 4%;
+  }
+
+  .expContainer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  .expAndAbout {
     flex-direction: column;
-    align-items: center;
+    margin-top: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .content {
     gap: 30px;
+    width: 100%;
+  }
+
+  .expContainer {
+    width: 100%;
   }
 
   .skills {
@@ -156,6 +207,16 @@
 }
 
 @media (max-width: 400px) {
+  .expAndAbout {
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+
   .historyItem {
     flex-direction: column;
   }
@@ -165,6 +226,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
 
   .historyItemDetails h3 {
