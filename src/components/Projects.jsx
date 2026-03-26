@@ -73,7 +73,7 @@ export const Projects = () => {
 
   return (
     <section className={styles.container} id="projects">
-      <h2 className={styles.title}>My latest projects</h2>
+      <h2 className={styles.title}>My other work</h2>
       <Slider {...settings} className="mySlider">
         {projects.map((project, id) => (
           <div key={id} className={styles.slide}>

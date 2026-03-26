@@ -4,13 +4,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   border-radius: 4px;
   background: linear-gradient(180deg, #caa3b6 0%, rgba(25, 55, 109, 0) 100%);
   box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.1);
   padding: 15px;
   max-width: 300px;
-  height: 500px;
+  height: 525px;
 }
 
 .img {
@@ -33,7 +33,7 @@
 
 .description {
   margin-top: 5px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: lighter;
 }
 
@@ -57,7 +57,7 @@
 
 .links {
   width: 100%;
-  margin-top: 15px;
+  margin-top: 12px;
   display: flex;
   justify-content: space-around;
 }
@@ -105,7 +105,7 @@
   .skills {
     margin-top: 5px;
   }
-  
+
   .link {
     font-size: 12px;
     padding: 4px 6px;

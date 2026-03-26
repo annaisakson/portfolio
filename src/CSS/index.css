@@ -1,3 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Galada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  /* colors */
+  --color-text: #fff;
+  --color-primary: #e89aad;
+  --color-secondary: #ffcfa4;
+  --color-third: #f6e5a5;
+  --color-bg: #e0b5c7;
+  --color-dark: #caa3b6;
+
+  /* fonts */
+  --font-headings: "Galada";
+  --font-h2: "Libre Franklin";
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

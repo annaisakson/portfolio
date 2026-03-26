@@ -1,12 +1,5 @@
 [
   {
-    "title": "SunSip",
-    "imageSrc": "projects/sunsip.png",
-    "description": "During my internship i worked on a webshop that sells beverages. I did both frontend and backend work.",
-    "skills": ["Next.js", "Tailwind", "TypeScript", "Wix Headless"],
-    "site": "https://sunsip.es"
-  },
-  {
     "title": "Wordscapes",
     "imageSrc": "projects/art.png",
     "description": "A simple art generator that creates abstract art based on your prompt without the use of AI. You can randomize prompts and even save your art to your computer.",

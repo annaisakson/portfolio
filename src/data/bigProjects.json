@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Equipal",
+    "imageSrc": "projects/sunsip.png",
+    "description": "During my internship i worked on a webshop that sells beverages. I did both frontend and backend work.",
+    "skills": ["React Native", "Expo", "TypeScript", "Tailwind", "Supabase"],
+    "site": "https://sunsip.es"
+  },
+  {
+    "title": "SunSip",
+    "imageSrc": "projects/sunsip.png",
+    "description": "During my internship i worked on a webshop that sells beverages. I did both frontend and backend work.",
+    "skills": ["Next.js", "Tailwind", "TypeScript", "Wix Headless"],
+    "site": "https://sunsip.es"
+  }
+]
