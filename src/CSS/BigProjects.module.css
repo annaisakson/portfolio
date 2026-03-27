@@ -15,4 +15,5 @@
   align-items: center;
   justify-content: space-evenly;
   margin-top: 100px;
+  gap: 1rem;
 }
