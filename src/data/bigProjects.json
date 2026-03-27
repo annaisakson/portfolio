@@ -1,15 +1,25 @@
 [
   {
     "title": "Equipal",
-    "imageSrc": "projects/sunsip.png",
-    "description": "During my internship i worked on a webshop that sells beverages. I did both frontend and backend work.",
+    "subheading": "Your best friend for managing your horse life 🐴",
+    "imageSrc": "projects/sunsipstor.png",
+    "description": "This android app is my personal project, serving as an activity tracker helping you to save and evaluate workout sessions, rest days and more for your horse.",
+    "list": [
+      "Manage up to 3 horses individually",
+      "Choose between several types of acitivities",
+      "Evaluate the feeling, exertion and add notes",
+      "Plan activities",
+      "See statistics over the past month"
+    ],
     "skills": ["React Native", "Expo", "TypeScript", "Tailwind", "Supabase"],
     "site": "https://sunsip.es"
   },
   {
     "title": "SunSip",
-    "imageSrc": "projects/sunsip.png",
-    "description": "During my internship i worked on a webshop that sells beverages. I did both frontend and backend work.",
+    "subheading": "Webshop, mobile and desktop",
+    "imageSrc": "projects/sunsipstor.png",
+    "description": "During my internship i worked with a team on a webshop that sells beverages. I did both frontend and backend work. Handling membership functionality like login, register, favourites and user profiles. ",
+    "list": [],
     "skills": ["Next.js", "Tailwind", "TypeScript", "Wix Headless"],
     "site": "https://sunsip.es"
   }

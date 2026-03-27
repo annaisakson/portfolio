@@ -6,6 +6,7 @@
   margin-left: 10%;
   margin-right: 10%;
   min-width: 0;
+  max-width: 1500px;
 }
 
 .title {

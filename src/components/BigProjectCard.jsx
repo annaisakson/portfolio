@@ -2,7 +2,7 @@ import styles from "../CSS/BigProjectCard.module.css";
 import { getImageUrl } from "../utils";
 
 export const BigProjectCard = ({
-  project: { title, imageSrc, description, skills },
+  project: { title, subheading, imageSrc, description, list, skills },
 }) => {
   return (
     <>
@@ -13,9 +13,21 @@ export const BigProjectCard = ({
           className={styles.img}
         />
         <div className={styles.content}>
-          <h2 className={styles.title}>{title}</h2>
+          <div>
+            <h2 className={styles.title}>{title}</h2>
+            <p className={styles.subheading}>{subheading}</p>
+          </div>
           <p className={styles.description}>{description}</p>
           <ul className={styles.list}>
+            {list.map((item, id) => {
+              return (
+                <li key={id} item={item} className={styles.listItem}>
+                  {item}
+                </li>
+              );
+            })}
+          </ul>
+          <ul className={styles.skillsList}>
             {skills.map((skill, id) => {
               return (
                 <li key={id} className={styles.skill}>
