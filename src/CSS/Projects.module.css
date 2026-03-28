@@ -31,4 +31,8 @@
   .slide {
     max-height: 450px;
   }
+
+  .container {
+    margin-top: 100px;
+  }
 }

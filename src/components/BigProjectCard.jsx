@@ -4,7 +4,16 @@ import { getImageUrl } from "../utils";
 import { PiArrowArcRightBold } from "react-icons/pi";
 
 export const BigProjectCard = ({
-  project: { title, subheading, imageSrc, description, list, skills, logo },
+  project: {
+    title,
+    subheading,
+    imageSrc,
+    imageBack,
+    description,
+    list,
+    skills,
+    logo,
+  },
 }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
@@ -41,7 +50,7 @@ export const BigProjectCard = ({
 
           <div className={styles.cardBack}>
             <img
-              src={getImageUrl(imageSrc)}
+              src={getImageUrl(imageBack)}
               alt={`Image of ${title}`}
               className={styles.img}
             />

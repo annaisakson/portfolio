@@ -6,11 +6,17 @@
   height: 100%;
   color: white;
   overflow: hidden;
-  gap: 100px;
+  gap: 80px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .App {
+    gap: 30px;
+  }
 }
 
 @media (max-width: 400px) {
