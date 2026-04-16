@@ -2,8 +2,8 @@
   {
     "title": "EquiPal",
     "subheading": "Your best friend for managing your horse life 🐎",
-    "imageSrc": "projects/sunsipstor.png",
-    "imageBack": "projects/sunsipbackstor.png",
+    "imageSrc": "projects/mobil1.png",
+    "imageBack": "projects/mobil2.png",
     "description": "This android app is my personal project, serving as an activity tracker helping you to save and evaluate workout sessions, rest days and more for your horse. Some functionality includes:",
     "list": [
       "🐴 Manage up to 3 horses individually",
@@ -15,7 +15,7 @@
     ],
     "skills": ["React Native", "Expo", "TypeScript", "Tailwind", "Supabase"],
     "site": "https://sunsip.es",
-    "logo": "projects/SunSip-logo.png"
+    "logo": "projects/logoround.png"
   },
   {
     "title": "SunSip",
