@@ -19,12 +19,9 @@
 }
 
 .slide {
-  height: 530px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: space-evenly;
+  padding: 0 8px; /* ✅ adds gutter between cards */
   min-width: 0;
+  box-sizing: border-box;
 }
 
 @media (max-width: 800px) {
@@ -34,5 +31,7 @@
 
   .container {
     margin-top: 100px;
+    margin-left: 4%; /* ✅ more breathing room on mobile */
+    margin-right: 4%;
   }
 }

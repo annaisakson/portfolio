@@ -55,7 +55,7 @@
   .container {
     flex-direction: column;
     height: 400px;
-    padding: 1em;
+
     width: 100%;
   }
   .locationContainer {
@@ -67,11 +67,28 @@
   .aboutContainer {
     width: 85%;
   }
+  .description {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 450px) {
   .aboutContainer {
     position: relative;
     width: 85%;
+  }
+  .description {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
+
+  .locationIcon {
+    font-size: 3em;
+  }
+  .locationText {
+    font-size: 0.8em;
   }
 }

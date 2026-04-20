@@ -13,6 +13,9 @@ export const BigProjectCard = ({
     list,
     skills,
     logo,
+    source,
+    site,
+    demo,
   },
 }) => {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -44,6 +47,23 @@ export const BigProjectCard = ({
                   </li>
                 ))}
               </ul>{" "}
+              <div className={styles.links}>
+                {demo && (
+                  <a href={demo} className={styles.link} target="_blank">
+                    Demo
+                  </a>
+                )}
+                {site && (
+                  <a href={site} className={styles.link} target="_blank">
+                    Visit Site
+                  </a>
+                )}
+                {source && (
+                  <a href={source} className={styles.link} target="_blank">
+                    Source
+                  </a>
+                )}
+              </div>
               <PiArrowArcRightBold className={styles.arrow} />
             </div>
           </div>

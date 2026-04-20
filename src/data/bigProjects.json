@@ -14,7 +14,9 @@
       "⌛️ More coming soon!"
     ],
     "skills": ["React Native", "Expo", "TypeScript", "Tailwind", "Supabase"],
-    "site": "https://sunsip.es",
+    "site": "",
+    "source": "https://github.com/annaisakson/horse-companion-app",
+    "demo": "",
     "logo": "projects/logoround.png"
   },
   {
@@ -33,6 +35,8 @@
     ],
     "skills": ["Next.js", "Tailwind", "TypeScript", "Wix Headless"],
     "site": "https://sunsip.es",
+    "source": "",
+    "demo": "",
     "logo": "projects/SunSip-logo.png"
   }
 ]

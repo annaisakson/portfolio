@@ -24,13 +24,14 @@ export const Projects = () => {
     dots: true, // show navigation dots
     infinite: true, // loop around
     speed: 500, // animation speed (ms)
-    slidesToShow: initialSlidesToShow, // how many slides visible at once
+    slidesToShow: 4, // how many slides visible at once
     slidesToScroll: 1, // how many slides move on arrow/dot click
     arrows: true, // show left/right arrows
-    autoplay: true, // auto-slide
+    autoplay: false, // auto-slide
     autoplaySpeed: 8000, // 6 seconds delay
     pauseOnHover: true, // stop autoplay when hovering
     adaptiveHeight: true, // adjusts height depending on content
+    swipeToSlide: true,
     responsive: [
       {
         breakpoint: 1600,
