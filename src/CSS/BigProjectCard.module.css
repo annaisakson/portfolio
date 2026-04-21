@@ -264,49 +264,23 @@
 }
 
 @media (max-width: 620px) {
-  .container {
-    width: 450px;
-    height: 300px;
-  }
-
   .subheading {
     font-size: 0.8em;
-  }
-
-  .description {
-    font-size: 0.6em;
-  }
-
-  .listItem {
-    font-size: 10px;
-    line-height: 1.2;
   }
 
   .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1rem;
+    padding: 5px 10px;
     height: 90%;
     gap: 0.8rem;
   }
 
-  .list li {
-    padding: 8px 12px;
-    border-radius: 3px;
-    margin: 2px;
-  }
-
-  .arrow {
-    font-size: 1.5em;
-    padding: 0;
-  }
-}
-
-@media (max-width: 620px) {
   .container {
     width: 450px;
     height: 300px;
+    gap: 0.5rem;
   }
 
   .title {
@@ -323,11 +297,13 @@
   }
 
   .description {
-    font-size: 0.6em;
+    font-size: 0.7em;
   }
 
   .listItem {
     font-size: 9px;
+    font-weight: bold;
+    line-height: 1.2;
   }
 
   .logo {
@@ -335,7 +311,7 @@
   }
 
   .content {
-    gap: 0.7rem;
+    gap: 0.3rem;
   }
 
   .list li {
@@ -346,36 +322,39 @@
     font-size: 1.5em;
     padding: 0;
   }
+}
 
-  @media (max-width: 450px) {
-    .container {
-      width: 300px;
-      height: 720px;
-    }
+@media (max-width: 450px) {
+  .container {
+    width: 320px;
+    height: 680px;
+  }
 
-    .cardFront,
-    .cardBack {
-      flex-direction: column;
-      text-align: center;
-    }
+  .cardFront,
+  .cardBack {
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .content {
-      text-align: center;
-    }
+  .content {
+    text-align: center;
+  }
 
-    .img {
-      width: 100%;
-      border-radius: 10px 10px 0px 0px;
-    }
+  .img {
+    width: 100%;
+    height: 380px;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+    object-position: center center;
+  }
 
-    .skillsList {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+  .skillsList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .arrow {
-      align-self: center;
-    }
+  .arrow {
+    align-self: center;
   }
 }

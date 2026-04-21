@@ -70,6 +70,9 @@
   .description {
     font-size: 14px;
   }
+  .locationIcon {
+    font-size: 3em;
+  }
 }
 
 @media (max-width: 450px) {
@@ -85,9 +88,6 @@
     font-size: 1.5em;
   }
 
-  .locationIcon {
-    font-size: 3em;
-  }
   .locationText {
     font-size: 0.8em;
   }
