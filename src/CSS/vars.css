@@ -4,10 +4,13 @@
   --color-primary: #e89aad;
   --color-secondary: #ffcfa4;
   --color-third: #f6e5a5;
-  --color-bg: #e0b5c7;
-  --color-dark: #caa3b6;
+  --color-bg: #d1b2c0;
+  --color-dark: #c0a4b1;
 
   /* fonts */
   --font-headings: "Galada";
   --font-h2: "Libre Franklin";
 }
+
+/* --color-bg: #e0b5c7;
+  --color-dark: #caa3b6; */
