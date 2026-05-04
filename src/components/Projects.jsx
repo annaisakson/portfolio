@@ -34,7 +34,7 @@ export const Projects = () => {
 
   return (
     <section className={styles.container} id="projects">
-      <h2 className={styles.title}>My other work</h2>
+      {/* <h2 className={styles.title}>My other work</h2> */}
       <div className={styles.grid}>
         {visibleProjects.map((project, id) => (
           <div

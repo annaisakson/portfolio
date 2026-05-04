@@ -6,7 +6,7 @@
   height: 100%;
   color: white;
   overflow: hidden;
-  gap: 80px;
+  gap: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
