@@ -16,6 +16,35 @@
   gap: 1rem;
 }
 
+/* start hidden and shifted down */
+.card {
+  opacity: 0;
+  transform: translateY(40px);
+  transition:
+    opacity 0.6s ease,
+    transform 0.6s ease;
+}
+
+/* animate in when visible */
+.card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Used for standalone elements like the title */
+.fadeIn {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+}
+
+.fadeIn.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 @media (max-width: 1025px) {
   .container {
     flex-direction: column;

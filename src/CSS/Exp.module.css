@@ -163,6 +163,19 @@
   cursor: default;
 }
 
+.fadeIn {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+}
+
+.fadeIn.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 @media (max-width: 1600px) {
   .expAndAbout {
     margin-top: 100px;
