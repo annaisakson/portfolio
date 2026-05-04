@@ -1,7 +1,7 @@
 @import "./vars.css";
 
 .container {
-  margin-top: 140px;
+  margin-top: 120px;
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
@@ -67,6 +67,9 @@
 @media (max-width: 900px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .container {
+    margin-top: 10px;
   }
 }
 
